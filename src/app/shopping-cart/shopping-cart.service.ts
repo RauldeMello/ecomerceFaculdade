@@ -20,6 +20,10 @@ export class ShoppingCartService {
     return this.showCart;
   }
 
+  mostrarSeila() {
+    return 'ola';
+  }
+
   sendToCart(product: any) {
     let products = this.getAllProductsFromStorage();
     let filteredProducts = products.filter(
